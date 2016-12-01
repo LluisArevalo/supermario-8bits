@@ -1,29 +1,45 @@
+body {
+  background: url(images/background.png) bottom left repeat-x;
+  background-color: rgb(94, 145, 254);
+  height: 98vh;
+}
+
+#characters {
+  position: absolute;
+  top: calc(98vh - 200px);
+}
+
 /* Character Container */
 #mario,
 #luigi {
+  --size: 160px;
   float: left;
-  height: 320px;
-  width: 320px;
+  height: var(--size);
+  width: var(--size);
 }
 
-#goomba {
+#goomba,
+#mushroom {
+  --size: 80px;
   float: left;
-  height: 160px;
-  margin-top: 160px;
-  width: 160px;
+  height: var(--size);
+  margin-right: 40px;
+  margin-top: var(--size);
+  width: var(--size);
 }
 
 /* Pixel */
 .pixel {
   background: transparent;
   float: left;
-  height: 20px;
-  width: 20px;
-}
-
-#goomba .pixel {
   height: 10px;
   width: 10px;
+}
+
+#goomba .pixel,
+#mushroom .pixel {
+  height: 5px;
+  width: 5px;
 }
 
 /*===============================================
@@ -90,4 +106,19 @@
 
 #goomba .skin {
   background: rgb(255, 203, 155);
+}
+
+/*===============================================
+  Mushroom
+=================================================*/
+#mushroom .brown {
+  background: rgb(252, 154, 60);
+}
+
+#mushroom .green {
+  background: rgb(4, 170, 4);
+}
+
+#mushroom .white {
+  background: rgb(252, 254, 252);
 }
