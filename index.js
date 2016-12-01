@@ -1,15 +1,18 @@
 var _character;
 
 window.onload = function load() {
-  _character         = new CharacterConfiguration();
+  _character          = new CharacterConfiguration();
 
-  var marioContainer = document.getElementById('mario');
-  var luigiContainer = document.getElementById('luigi');
-  var marioValues    = loadMario();
-  var luigiValues    = loadLuigi();
+  var marioContainer  = document.getElementById('mario');
+  var luigiContainer  = document.getElementById('luigi');
+  var goombaContainer = document.getElementById('goomba');
+  var marioValues     = loadMario();
+  var luigiValues     = loadLuigi();
+  var goombaValues    = loadGoomba();
 
   renderCharacter(marioValues, marioContainer);
   renderCharacter(luigiValues, luigiContainer);
+  renderCharacter(goombaValues, goombaContainer);
 };
 
 function renderCharacter (array, container) {
@@ -27,4 +30,8 @@ function loadMario () {
 
 function loadLuigi () {
   return _character.getLuigi();
+}
+
+function loadGoomba () {
+  return _character.getGoomba();
 }
