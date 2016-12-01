@@ -1,0 +1,48 @@
+/* Character Container */
+#mario {
+  height: 320px;
+  width: 320px;
+}
+
+/* Pixel */
+#mario .pixel {
+  background: transparent;
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+
+/* Clothes Red */
+#mario .pixel.red {
+  background: rgb(237, 27, 36);
+}
+
+/* Clothes Blue */
+#mario .pixel.blue {
+  background: rgb(0, 0, 254);
+}
+
+/* Clothes Button */
+#mario .pixel.button {
+  background: rgb(254, 242, 0);
+}
+
+/* Brown */
+#mario .pixel.brown {
+  background: rgb(69, 35, 0);
+}
+
+/* Face and hands */
+#mario .pixel.skin {
+  background: rgb(255, 194, 15);
+}
+
+/* Eyes and moustache */
+#mario .pixel.black {
+  background: rgb(10, 10, 10);
+}
+
+/* Shoes */
+#mario .pixel.shoes {
+  background: rgb(69, 35, 0);
+}
