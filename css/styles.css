@@ -1,7 +1,24 @@
+@font-face {
+  font-family: 'MarioBross';
+  src: url('SuperMario.ttf');
+}
+
 body {
-  background: url(images/background.png) bottom left repeat-x;
+  background: url('../images/background.png') bottom left repeat-x;
   background-color: rgb(94, 145, 254);
   height: 98vh;
+}
+
+nav ul li {
+  font-family: 'MarioBross';
+  font-size: 40px;
+  float: left;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 #characters {
