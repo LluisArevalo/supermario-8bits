@@ -1,10 +1,10 @@
-CharacterConfiguration.prototype.getMario = function () {
+CharacterConfiguration.prototype.getLuigi = function () {
   return [
-    'empty', 'empty', 'empty', 'empty', 'empty', 'red', 'red', 'red',
-    'red', 'red', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
+    'empty', 'empty', 'empty', 'empty', 'empty', 'green', 'green', 'green',
+    'green', 'green', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
 
-    'empty', 'empty', 'empty', 'empty', 'red', 'red', 'red', 'red',
-    'red', 'red', 'red', 'red', 'red', 'empty', 'empty', 'empty',
+    'empty', 'empty', 'empty', 'empty', 'green', 'green', 'green', 'green',
+    'green', 'green', 'green', 'green', 'green', 'empty', 'empty', 'empty',
 
     'empty', 'empty', 'empty', 'empty', 'brown', 'brown', 'brown', 'skin',
     'skin', 'black', 'skin', 'empty', 'empty', 'empty', 'empty', 'empty',
@@ -21,17 +21,17 @@ CharacterConfiguration.prototype.getMario = function () {
     'empty', 'empty', 'empty', 'empty', 'empty', 'skin', 'skin', 'skin',
     'skin', 'skin', 'skin', 'empty', 'empty', 'empty', 'empty', 'empty',
 
-    'empty', 'empty', 'empty', 'empty', 'red', 'red', 'blue', 'red',
-    'red', 'blue', 'red', 'red', 'empty', 'empty', 'empty', 'empty',
+    'empty', 'empty', 'empty', 'empty', 'green', 'green', 'blue', 'green',
+    'green', 'blue', 'green', 'green', 'empty', 'empty', 'empty', 'empty',
 
-    'empty', 'empty', 'empty', 'red', 'red', 'red', 'blue', 'red',
-    'red', 'blue', 'red', 'red', 'red', 'empty', 'empty', 'empty',
+    'empty', 'empty', 'empty', 'green', 'green', 'green', 'blue', 'green',
+    'green', 'blue', 'green', 'green', 'green', 'empty', 'empty', 'empty',
 
-    'empty', 'empty', 'red', 'red', 'red', 'red', 'blue', 'blue',
-    'blue', 'blue', 'red', 'red', 'red', 'red', 'empty', 'empty',
+    'empty', 'empty', 'green', 'green', 'green', 'green', 'blue', 'blue',
+    'blue', 'blue', 'green', 'green', 'green', 'green', 'empty', 'empty',
 
-    'empty', 'empty', 'skin', 'skin', 'red', 'blue', 'button', 'blue',
-    'blue', 'button', 'blue', 'red', 'skin', 'skin', 'empty', 'empty',
+    'empty', 'empty', 'skin', 'skin', 'green', 'blue', 'button', 'blue',
+    'blue', 'button', 'blue', 'green', 'skin', 'skin', 'empty', 'empty',
 
     'empty', 'empty', 'skin', 'skin', 'skin', 'blue', 'blue', 'blue',
     'blue', 'blue', 'blue', 'skin', 'skin', 'skin', 'empty', 'empty',

@@ -1,48 +1,66 @@
 /* Character Container */
-#mario {
+#mario,
+#luigi {
+  float: left;
   height: 320px;
   width: 320px;
 }
 
 /* Pixel */
-#mario .pixel {
+.pixel {
   background: transparent;
   float: left;
   height: 20px;
   width: 20px;
 }
 
+/*===============================================
+  Mario
+=================================================*/
 /* Clothes Red */
-#mario .pixel.red {
+#mario .red {
   background: rgb(237, 27, 36);
 }
 
 /* Clothes Blue */
-#mario .pixel.blue {
+#mario .blue,
+#luigi .blue {
   background: rgb(0, 0, 254);
 }
 
 /* Clothes Button */
-#mario .pixel.button {
+#mario .button,
+#luigi .button {
   background: rgb(254, 242, 0);
 }
 
 /* Brown */
-#mario .pixel.brown {
+#mario .brown,
+#luigi .brown {
   background: rgb(69, 35, 0);
 }
 
 /* Face and hands */
-#mario .pixel.skin {
+#mario .skin,
+#luigi .skin {
   background: rgb(255, 194, 15);
 }
 
 /* Eyes and moustache */
-#mario .pixel.black {
+#mario .black,
+#luigi .black {
   background: rgb(10, 10, 10);
 }
 
 /* Shoes */
-#mario .pixel.shoes {
+#mario .shoes,
+#luigi .shoes {
   background: rgb(69, 35, 0);
+}
+
+/*===============================================
+  Luigi
+=================================================*/
+#luigi .green  {
+  background: rgb(44, 176, 81);
 }
